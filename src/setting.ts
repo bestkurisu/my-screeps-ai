@@ -110,7 +110,7 @@ export const labTarget = [
  * deposit 最大的采集冷却时长
  * 超过该时长则不会再进行挖掘
  */
-export const DEPOSIT_MAX_COOLDOWN = 100
+export const DEPOSIT_MAX_COOLDOWN = 120
 
 /**
  * observer 房间扫描间隔
@@ -273,7 +273,7 @@ export const factoryBlacklist = [
 ]
 
 // 工厂在 storage 中能量低于该值时将暂停工作
-export const factoryEnergyLimit = 300000
+export const factoryEnergyLimit = 200000
 
 /**
  * 工厂不同沉积物 1-5 等级对应的顶级产物
@@ -373,7 +373,7 @@ export const DEAL_RATIO: DealRatios = {
 export const minWallHits = 8000
 
 // pc 空闲时会搓 ops，下面是搓的上限
-export const maxOps = 50000
+export const maxOps = 100000
 
 // 终端支持的物流模式
 export const terminalModes: {
