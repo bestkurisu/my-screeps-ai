@@ -47,7 +47,7 @@ export const bodyConfigs: BodyConfigs = {
         { [WORK]: 6, [CARRY]: 6, [MOVE]: 6 },
         { [WORK]: 9, [CARRY]: 9, [MOVE]: 9 },
         { [WORK]: 12, [CARRY]: 6, [MOVE]: 9 },
-        { [WORK]: 20, [CARRY]: 8, [MOVE]: 14 }
+        { [WORK]: 22, [CARRY]: 10, [MOVE]: 16 }
     ),
 
     /**
@@ -106,7 +106,7 @@ export const bodyConfigs: BodyConfigs = {
         { [MOVE]: 6, [ATTACK]: 6 },
         { [MOVE]: 7, [ATTACK]: 7 },
         { [MOVE]: 8, [ATTACK]: 8 },
-        { [MOVE]: 9, [ATTACK]: 9 }
+        { [MOVE]: 25, [ATTACK]: 25 }
     ),
 
     /**
