@@ -119,7 +119,7 @@ export default class RoomSpawnController extends RoomAccessor<SpawnTask[]> {
         }
 
         // 生成中 / 生产队列为空 就啥都不干
-        if (spawn.spawning || this.memory.length == 0) return 
+        if (this.memory.length == 0) return
 
         const task = this.memory[0]
         // 进行生成
