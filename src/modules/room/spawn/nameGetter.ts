@@ -8,7 +8,7 @@ export class GetName {
     static manager = (roomName: string, index: number) => `${roomName} manager${index}`
     static processor = (roomName: string) => `${roomName} processor`
     static claimer = (targetRoomName: string) => `${targetRoomName} claimer`
-    static reserver = (targetRoomName: string) => `${targetRoomName} reserver${Game.time}`
+    static reserver = (targetRoomName: string) => `${targetRoomName} reserver`
     static signer = (roomName: string) => `${roomName} signer`
     static remoteBuilder = (remoteRoomName: string) => `${remoteRoomName} RemoteBuilder`
     static remoteUpgrader = (remoteRoomName: string) => `${remoteRoomName} RemoteUpgrader`
